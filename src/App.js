@@ -49,7 +49,7 @@ function emojiClickHandler(inputEmoji) {
          placeholder="Put your Emoji here!." 
          onChange = {changeHandler}
          />
-         
+         <h3>{ emoji }</h3>
          <h3>{ meaning }</h3>
         
         {
