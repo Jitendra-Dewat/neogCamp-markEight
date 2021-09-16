@@ -42,7 +42,11 @@ function emojiClickHandler(inputEmoji) {
     <div className="App">
       
       <div class="container container-center">
-        <h1 class="app-heading">Emoji interpreter </h1>
+        <div class="header">
+          <h1 class="header-heading">Emoji interpreter </h1>
+          <small className="description">Put any emoji in the input box and we will tell you what is that emoji!</small>
+        </div>
+        
 
         <input
          type="text" class="userInput"
